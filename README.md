@@ -48,6 +48,7 @@ The Pytorch NLL Loss is expressed as:
 ## Training Log
 
 ```
+
 Epoch 1 : 
 <ipython-input-38-c6d639d70f3b>:42: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
   return F.log_softmax(x), F.log_softmax(x1)
@@ -65,6 +66,30 @@ Test set: Average loss: 0.659, MNist Accuracy:98.99, Sum_Accuracy:88.68
 Epoch 4 : 
 Train set: Average loss: 0.35
 Test set: Average loss: 0.351, MNist Accuracy:99.2, Sum_Accuracy:97.44
+
+Epoch 5 : 
+Train set: Average loss: 0.18
+Test set: Average loss: 0.182, MNist Accuracy:99.24, Sum_Accuracy:98.75
+
+Epoch 6 : 
+Train set: Average loss: 0.09
+Test set: Average loss: 0.114, MNist Accuracy:99.17, Sum_Accuracy:98.97
+
+Epoch 7 : 
+Train set: Average loss: 0.07
+Test set: Average loss: 0.084, MNist Accuracy:99.12, Sum_Accuracy:98.9
+
+Epoch 8 : 
+Train set: Average loss: 0.04
+Test set: Average loss: 0.062, MNist Accuracy:99.37, Sum_Accuracy:99.22
+
+Epoch 9 : 
+Train set: Average loss: 0.03
+Test set: Average loss: 0.051, MNist Accuracy:99.4, Sum_Accuracy:99.19
+
+Epoch 10 : 
+Train set: Average loss: 0.03
+Test set: Average loss: 0.049, MNist Accuracy:99.28, Sum_Accuracy:99.16
 ```
 
 
